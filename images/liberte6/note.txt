@@ -1,0 +1,3 @@
+librete 6  exten pres de l'ecole david diop 
+2chambr salon 60000
+3chambr salon 70000
