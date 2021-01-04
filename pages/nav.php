@@ -10,10 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class=" navbar-nav ">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/pages/agenceNgor.php">PROPRIETE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/pages/aprepos.php">QUI SOMMES NOUS</a>
+                    <a class="nav-link js-scroll-trigger" href="#">PROPRIETE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="/pages/contact.php">CONTACT</a>

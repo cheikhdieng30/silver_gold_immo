@@ -23,6 +23,21 @@
     <div class="cover-acceuil">
         <img src="/images/covetr-accueil.jpeg" class="img-fluid" alt="Image banniere">
     </div>
+    <!-- Jumbotron -->
+    <section class="jumbotron jumbotron-fluid ">
+        <div class="container">
+            <div class="row d-flex text-center align-items-center mt-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 qui-sommes-nous">
+                    <img src="/images/logo.png " class="mt-3 mb-3 img-fluid" alt="image jumbotron" style="width:400px; height:400px">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 qui-sommes-nous-text">
+                    <p class="text-muted text-justify">
+                        Crée en 2013, SILVER IMMOBLIER devient un partenaire incontournable dans la location d'immeuble de dernière génération. En 2018, en vue de dynamiser son éventail d’action; le groupe SILVER IMMO prend son envol sur le marché de l’immobilier au Sénégal. SILVER & GOLD est né. Avec un service à la carte qui vous accompagne dans toutes vos démarches; notre équipe vise les meilleurs standards de qualité. Nous comptons dans nos compétences la location d 'appartements haut de gamme, la location d'appartements meublés, la décoration intérieure, ainsi que les finitions. De plus, pour plus de quietude, SIVER & GOLD reste votre partenaire privilégié dans la gestion de vos biens immobiliers. Loyauté, engagement, et performance font notre force. Faire affaire avec l’équipe SILVER & GOLD c'est choisir l'expertise au service de l'immobilier. AVEC SILVER & GOLD, VIVEZ L’IMMOBILIER CONFORTABLEMENT !
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--- Section Location & vente appartement/maison --->
     <section class="contenu-appartement mt-5">
         <div class="container">
