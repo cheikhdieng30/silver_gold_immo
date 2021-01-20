@@ -99,8 +99,8 @@ div.qui-sommes-nous-text p{
         background: url(../images/cover-mobile.jpeg);
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+        background-size: contain;
+        width:100%;
         height: 100vmax;
     }
     div.form-group input, textarea{
@@ -152,8 +152,9 @@ div.qui-sommes-nous-text p{
         font-size: 1.2em;
     }
     div.qui-sommes-nous img{
-        width: 250px !important;
-        height: 250px !important;
+        width: 200px !important;
+        height: 200px !important;
+        padding-bottom: 20px;
         
     }
     div.qui-sommes-nous-text p{
