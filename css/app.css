@@ -80,7 +80,7 @@ div.reseaux-sociaux a i:hover{
    color: #220905 ; 
 }
 /* Page qui sommmes nous et conatct*/
-.cover-qui-sommes-nous img{
+.cover-qui-sommes-nous {
     width: 100%;
     height: 50vmin;
 }
@@ -92,6 +92,17 @@ div.qui-sommes-nous-text p{
     font-size: 1.2em;
 }
 @media screen and (max-width: 576px) {
+    div.cover-acceuil img {
+        display: none;
+    }
+    div.cover-acceuil{
+        background: url(../images/cover-mobile.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vmax;
+    }
     div.form-group input, textarea{
         font-size: 1em !important;
     }
@@ -148,4 +159,5 @@ div.qui-sommes-nous-text p{
     div.qui-sommes-nous-text p{
         font-size: 1.1em;
     }
+
 }
