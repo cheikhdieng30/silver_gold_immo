@@ -22,7 +22,7 @@ if (!empty($_POST['prenom']) && !empty($_POST['nom']) && !empty($_POST['email'])
                 'Reply-To' => $email,
                 'X-Mailer' => 'PHP/' . phpversion()
             );
-
+        
             mail($to, $subject, $message, $headers);
             $success = 1;
             $msg = 'Votre message a été bien envoyé';

@@ -4,18 +4,17 @@ html,body{
   padding: 0;
   box-sizing: border-box;
 }
-div.navbar-collapse{
-    width: 100%;
-}
+
 nav.navbar{
     background-color: #ffffff !important;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid #982211;
+    border-bottom: 1px solid #CD0000;
 }
 li.nav-item a{
     width: 100%;
-    color: #982211 !important;
+    color: #CD0000 !important;
+    font-size: 18px !important;
     transition: 1s ease-in-out;  
 }
 li.nav-item a:hover{
@@ -23,13 +22,14 @@ li.nav-item a:hover{
 }
 div.cover-acceuil img{
     width: 100%;
+    height: 100%;
 }
 div.carousel-item  img{
     width: 100%;
     height: 85vmin;
 }
 section.contenu-appartement h1, section.contenu-materiels h1, section.contenu-gerance h1, section.contenu-recouvrement h1, section.contenu-syndic h1{
-    color: #982211;
+    color: #CD0000;
 }
 section.contenu-appartement p, section.contenu-materiels p, section.contenu-gerance p, section.contenu-recouvrement p, section.contenu-syndic p{
     font-size: 1.25em;
@@ -37,10 +37,10 @@ section.contenu-appartement p, section.contenu-materiels p, section.contenu-gera
 div.bloc-gerance p, div.bloc-syndic p, div.bloc-recouvrement p{
     font-size: 1.1em;
 }
-div.bloc-appartement img{
+div.bloc-appartement img, div.bloc-maison img{
     height: 400px;
 }
-div.bloc-appartement h4{
+div.bloc-appartement h4, div.bloc-maison h4{
     padding: 10px;
     width: 100%;
     background-color: #992211;
@@ -48,7 +48,7 @@ div.bloc-appartement h4{
 }
 div.info-contact i{
     font-size: 2.5em;
-    color: #982211;
+    color: #CD0000;
 }
 div.info-contact p{
     font-size: 1.5em;
@@ -61,7 +61,7 @@ div.form-group input, textarea{
     font-size: 1.5em !important;
 }
 button.btn-primary{
-    background-color: #982211 !important;
+    background-color: #CD0000 !important;
     border:none;
     transition: 1s ease-in-out;
 }
@@ -69,10 +69,10 @@ button.btn-primary:hover{
     background-color: #220905 !important;
 }
 div.footer{
-    border-top: 1px solid #982211;
+    border-top: 1px solid #CD0000;
 }
 div.reseaux-sociaux a i{
-   color: #982211 ;
+   color: #CD0000 ;
    font-size: 2em; 
    transition: 1s ease-in-out;
 }
@@ -84,9 +84,9 @@ div.reseaux-sociaux a i:hover{
     width: 100%;
     height: 50vmin;
 }
-.cover-contact img{
+.cover-contact img, .cover-propriete img{
      width: 100%;
-    height: 40vmin;
+    height: auto;
 }
 div.qui-sommes-nous-text p{
     font-size: 1.2em;

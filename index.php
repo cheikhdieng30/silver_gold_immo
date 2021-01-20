@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
@@ -59,13 +59,11 @@
                             getCarousel($image1, $image2, $image3);
                             ?>
                             <h4>Appartement</h4>
-                            <p><i class="fas fa-map-marker-alt"></i> Librete 6 exten pres de l'ecole david diop</p>
-                            <p><i class="fas fa-home"></i> 2 chambres salon 60.000 F</p>
-                            <p><i class="fas fa-home"></i> 3 chambres salon 70.000 F</p>
+                            
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6">
-                        <div class="bloc-appartement">
+                        <div class="bloc-maison">
                             <?php
                             include_once('pages/carousel.php');
                             $image1 = "/images/ngor/1.jpeg";
@@ -73,10 +71,8 @@
                             $image3 = "/images/ngor/3.jpeg";
                             getCarousel($image1, $image2, $image3);
                             ?>
-                            <h4>Appartement</h4>
-                            <p><i class="fas fa-map-marker-alt"></i> Route de l'aéroport</p>
-                            <p><i class="fas fa-home"></i> 2 chambres salon 80.000 F</p>
-                            <p><i class="fas fa-home"></i> Studio 65.000 F</p>
+                            <h4>Maison</h4>
+                            
                         </div>
                     </div>
 
@@ -119,12 +115,12 @@
             </div>
             <div class="text-justify pt-3 bloc-gerance">
                 <div class="row align-items-center">
-                    <div class="my-3 col-md-4">
+                    <div class="my-3 col-md-6">
                         <div class="">
-                            <img src="/images/gerance.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:250px">
+                            <img src="/images/gerance.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
                         </div>
                     </div>
-                    <div class="my-3 col-md-8">
+                    <div class="my-3 col-md-6">
                         <p>
                             <i class="fas fa-chevron-circle-right"></i>
                             Définir une stratégie de gestion du patrimoine immobilier
@@ -161,12 +157,12 @@
                 </p>
             </div>
             <div class="row pt-4 bloc-recouvrement align-items-center">
-                <div class="my-3 col-md-4">
+                <div class="my-3 col-md-6">
                     <div class="">
-                        <img src="/images/recouvrement.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:350px">
+                        <img src="/images/recouvrement.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
                     </div>
                 </div>
-                <div class="my-3 col-md-8">
+                <div class="my-3 col-md-6">
                     <p>Il existe deux techniques principales de recouvrement de créances :</p>
                     <ul class="text-justify" style="list-style: none">
                         <li>
@@ -197,7 +193,7 @@
                     Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.
                 </p>
             </div>
-            <div class="row pt-4 bloc-syndic">
+            <div class="row pt-4 bloc-syndic align-items-center">
                 <div class="my-3 col-md-6">
                     <p class="text-justify">
                         Le syndic de copropriété établit et tient à jour la liste de tous les copropriétaires ainsi que les lots leur appartenant.
@@ -209,7 +205,7 @@
                 </div>
                 <div class="my-3 col-md-6">
                     <div class="">
-                        <img src="/images/syndic.png" class="img-fluid" alt="Image banniere" style="width:100%; height:300px">
+                        <img src="/images/syndic.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
                     </div>
                 </div>
             </div>
