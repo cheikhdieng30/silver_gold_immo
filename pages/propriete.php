@@ -20,48 +20,45 @@
     include_once('nav.php')
     ?>
     <div class="cover-propriete">
-        <img src="/images/construction/cover.jpg" class="img-fluid" alt="Image banniere">
+        <img src="/images/plans-house.jpg" class="img-fluid" alt="Image banniere">
     </div>
     <div class="container-fluid">
         <div class="row mt-5 mx-auto ">
             <h1 class="text-center pb-4">Appartement meublés</h1>
             <div class="col-md-4 my-2">
-                <img src="/images/liberte6/4.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/appartement/4.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
             <div class="col-md-4 my-2">
-                <img src="/images/liberte6/5.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/appartement/5.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
             <div class="col-md-4 my-2">
-                <img src="/images/ngor/2.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/appartement/2.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
         </div>
 
         <div class="row mt-5 mx-auto ">
             <h1 class="text-center pb-4">Appartement non meublés</h1>
             <div class="col-md-4 my-2">
-                <img src="/images/gerance.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/appartement/1.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
             <div class="col-md-4 my-2">
-                <img src="/images/gerance.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/appartement/6.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
             <div class="col-md-4 my-2">
-                <img src="/images/gerance.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/appartement/7.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
         </div>
 
         <div class="row mt-5 mx-auto ">
             <h1 class="text-center pb-4">Maison</h1>
             <div class="col-md-4 my-2">
-                <video controls style="width:100%; height:100%">
-                    <source src="/videos/1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <img src="/images/maison/maison3.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
             <div class="col-md-4 my-2">
-                <img src="/images/estate-living-room.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/maison/maison1.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
             <div class="col-md-4 my-2">
-                <img src="/images/img-09-free-img.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
+                <img src="/images/maison/maison2.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
             </div>
         </div>
         <div class="row mt-5 mx-auto ">
@@ -89,6 +86,14 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <?php include_once('footer.php')  ?>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>

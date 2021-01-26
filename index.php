@@ -51,28 +51,16 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <div class="bloc-appartement">
-                            <?php
-                            include_once('pages/carousel.php');
-                            $image1 = "/images/liberte6/1.jpeg";
-                            $image2 = "/images/liberte6/2.jpeg";
-                            $image3 = "/images/liberte6/3.jpeg";
-                            getCarousel($image1, $image2, $image3);
-                            ?>
+                            <img src="/images/appartement/8.jpeg" width="100%" alt="">
                             <h4>Appartement</h4>
-                            
+
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6">
                         <div class="bloc-maison">
-                            <?php
-                            include_once('pages/carousel.php');
-                            $image1 = "/images/ngor/1.jpeg";
-                            $image2 = "/images/ngor/2.jpeg";
-                            $image3 = "/images/ngor/3.jpeg";
-                            getCarousel($image1, $image2, $image3);
-                            ?>
+                            <img src="/images/maison/maison4.jpeg" width="100%" alt="">
                             <h4>Maison</h4>
-                            
+
                         </div>
                     </div>
 
