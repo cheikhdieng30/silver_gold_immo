@@ -26,12 +26,12 @@
     <!-- Jumbotron -->
     <section class="jumbotron jumbotron-fluid ">
         <div class="container">
-            <div class="row d-flex text-center align-items-center mt-4">
-                <div class="col-xs-12 col-sm-12 col-md-4 qui-sommes-nous">
+            <div class="row d-flex text-center align-items-center mt-4" id="animate6">
+                <div class="col-xs-12 col-sm-12 col-md-4 qui-sommes-nous qsn-js">
                     <img src="/images/logo.png " class="mt-3 mb-3 img-fluid" alt="image jumbotron" style="width:300px; height:300px">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 qui-sommes-nous-text">
-                    <p class="text-muted text-justify">
+                    <p class="text-muted text-justify qsn-js">
                         Crée en 2013, SILVER IMMOBLIER devient un partenaire incontournable dans la location d'immeuble de dernière génération. En 2018, en vue de dynamiser son éventail d’action; le groupe SILVER IMMO prend son envol sur le marché de l’immobilier au Sénégal. SILVER & GOLD est né. Avec un service à la carte qui vous accompagne dans toutes vos démarches; notre équipe vise les meilleurs standards de qualité. Nous comptons dans nos compétences la location d 'appartements haut de gamme, la location d'appartements meublés, la décoration intérieure, ainsi que les finitions. De plus, pour plus de quietude, SIVER & GOLD reste votre partenaire privilégié dans la gestion de vos biens immobiliers. Loyauté, engagement, et performance font notre force. Faire affaire avec l’équipe SILVER & GOLD c'est choisir l'expertise au service de l'immobilier. AVEC SILVER & GOLD, VIVEZ L’IMMOBILIER CONFORTABLEMENT !
                     </p>
                 </div>
@@ -48,17 +48,17 @@
                 </p>
             </div>
             <div class="    ">
-                <div class="row">
+                <div class="row" id="animate7">
                     <div class="col-md-12 col-lg-6">
                         <div class="bloc-appartement">
-                            <img src="/images/appartement/8.jpeg" width="100%" alt="">
+                            <img src="/images/appartement/8.jpeg" class=" img-fluid loc-img-js" width="100%" alt="">
                             <h4>Appartement</h4>
 
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6">
                         <div class="bloc-maison">
-                            <img src="/images/maison/maison4.jpeg" width="100%" alt="">
+                            <img src="/images/maison/maison4.jpeg" class=" img-fluid loc-img-js" width="100%" alt="">
                             <h4>Maison</h4>
 
                         </div>
@@ -92,8 +92,8 @@
     </section>
     <!--- Section Location Gérance --->
     <section class="contenu-gerance mt-5">
-        <div class="container">
-            <div class="text-center">
+        <div class="container" id="animate8">
+            <div class="text-center gerance-js">
                 <h1 class="pt-3 pb-3">Gérance</h1>
                 <p>
                     SILVER & GOLD IMMOBILIER Administre un ou plusieurs sites immobiliers et met en oeuvre les moyens techniques, administratifs, financiers et comptables de conservation ou d’amélioration du patrimoine immobilier selon la réglementation.
@@ -101,7 +101,7 @@
                 </p>
 
             </div>
-            <div class="text-justify pt-3 bloc-gerance">
+            <div class="text-justify pt-3 bloc-gerance gerance-js">
                 <div class="row align-items-center">
                     <div class="my-3 col-md-6">
                         <div class="">
@@ -137,14 +137,14 @@
     </section>
     <!--- Section Location Recouvrement --->
     <section class="contenu-recouvrement mt-5">
-        <div class="container">
-            <div class="text-center">
+        <div class="container" id="animate9">
+            <div class="text-center recouvrement-js">
                 <h1 class="pt-3 pb-3">Recouvrement</h1>
                 <p>
                     Qu’est-ce que le recouvrement des créances ? On appelle recouvrement de créances une activité réglementée permettant d’utiliser tous les moyens légaux à l’amiable ou judiciaires
                 </p>
             </div>
-            <div class="row pt-4 bloc-recouvrement align-items-center">
+            <div class="row pt-4 bloc-recouvrement align-items-center recouvrement-js">
                 <div class="my-3 col-md-6">
                     <div class="">
                         <img src="/images/recouvrement.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
@@ -174,14 +174,14 @@
     </section>
     <!--- Section Location Syndic --->
     <section class="contenu-syndic mt-5">
-        <div class="container">
-            <div class="text-center">
+        <div class="container" id="animate10">
+            <div class="text-center syndic-js">
                 <h1 class="pt-3 pb-3">Syndic</h1>
                 <p>
                     Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.
                 </p>
             </div>
-            <div class="row pt-4 bloc-syndic align-items-center">
+            <div class="row pt-4 bloc-syndic align-items-center syndic-js">
                 <div class="my-3 col-md-6">
                     <p class="text-justify">
                         Le syndic de copropriété établit et tient à jour la liste de tous les copropriétaires ainsi que les lots leur appartenant.
@@ -204,6 +204,16 @@
     <!-- Bootstrap core JS-->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Animation --->
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <!-- ScrollMagic -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.js"></script>
+
+    <!--GSAP animation plugin should be placed after ScrollMagic! -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>

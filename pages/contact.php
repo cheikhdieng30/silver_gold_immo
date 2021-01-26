@@ -42,7 +42,7 @@
                     getCarousel($image1, $image2, $image3);
                     ?>
                 </div>
-                <div class="col-md-4 mx-auto" style="background-color: #f4f4f5;">
+                <div class="col-md-4 mx-auto" id="animate1" style="background-color: #f4f4f5;">
                     <div class="row text-center d-flex align-items-center ">
                         <div class="col-md-12 my-2 bloc-contact">
                             <div class="info-contact">
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid contact">
+        <div class="container-fluid contact-info">
             <div class="container ">
                 <div class=" bloc-form-contact text-center pt-5">
                     <h2 class="mt-5">Contactez nous !</h2>
@@ -76,7 +76,7 @@
                     </p>
                     <div class="res-form mx-1"></div>
                 </div>
-                <form id="contactForm" class="pt-3 pb-4" name="sentMessage" novalidate="novalidate" method="post" action="/pages/contact.php">
+                <form id="contactForm" class="pt-3 pb-5" name="sentMessage" novalidate="novalidate" method="post" action="/pages/contact.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <input type="prenom" name="prenom" placeholder="Entrez votre prenom" class="form-control rounded-0" id="inputprenom">
@@ -110,15 +110,26 @@
                 </form>
             </div>
         </div>
+        <!--- Google Maps --->
+        <div class="elementor-custom-embed"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=silver%20gold%2C%20SACRE-COEUR%202%20LOT%20N%208619H%2C%20Dakar%2C%20S%C3%A9n%C3%A9gal&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" title="silver gold, SACRE-COEUR 2 LOT N 8619H, Dakar, Sénégal" aria-label="silver gold, SACRE-COEUR 2 LOT N 8619H, Dakar, Sénégal"></iframe></div>
+        </div>
     </section>
 
-    <!--- Google Maps --->
-    <div class="elementor-custom-embed"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=silver%20gold%2C%20SACRE-COEUR%202%20LOT%20N%208619H%2C%20Dakar%2C%20S%C3%A9n%C3%A9gal&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" title="silver gold, SACRE-COEUR 2 LOT N 8619H, Dakar, Sénégal" aria-label="silver gold, SACRE-COEUR 2 LOT N 8619H, Dakar, Sénégal"></iframe></div>
-    </div>
     <!-- Footer -->
     <?php include_once('footer.php')  ?>
+    <!-- Bootstrap core JS-->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Animation --->
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <!-- ScrollMagic -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.js"></script>
+
+    <!--GSAP animation plugin should be placed after ScrollMagic! -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
