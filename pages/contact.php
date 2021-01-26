@@ -32,70 +32,83 @@
 
         </div>
         <div class="container ">
-            <div class="col-md-12 mx-auto">
-                <div class="row text-center d-flex align-items-center ">
-                    <div class="col-sm-12 col-md-4 col-lg-4 my-2 bloc-contact">
-                        <div class="info-contact">
-                            <i class="mt-5 fas fa-map-marker-alt"></i>
-                            <p>Sacré coeur 2 Lot N 8319H <br> Dakar Sénégal Dakar</p>
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <?php
+                    include_once('carousel.php');
+                    $image1 = "/images/bureau/1.jpeg";
+                    $image2 = "/images/bureau/2.jpeg";
+                    $image3 = "/images/bureau/3.jpeg";
+                    getCarousel($image1, $image2, $image3);
+                    ?>
+                </div>
+                <div class="col-md-4 mx-auto" style="background-color: #f4f4f5;">
+                    <div class="row text-center d-flex align-items-center ">
+                        <div class="col-md-12 my-2 bloc-contact">
+                            <div class="info-contact">
+                                <i class="mt-5 fas fa-map-marker-alt"></i>
+                                <p>Sacré coeur 2 Lot N 8319H <br> Dakar Sénégal Dakar</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 my-2 bloc-contact">
-                        <div class="info-contact">
-                            <i class="mt-5 fas fa-mobile-alt"></i>
-                            <p>+221 33 827 87 27 <br> +221 33 77 115 47 20</p>
+                        <div class="col-md-12 my-2 bloc-contact">
+                            <div class="info-contact">
+                                <i class="mt-5 fas fa-mobile-alt"></i>
+                                <p>+221 33 827 87 27 <br> +221 33 77 115 47 20</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 my-2 bloc-contact">
-                        <div class="info-contact">
-                            <i class="mt-5 far fa-envelope"></i>
-                            <p>silverimmo@hotmail.com <br> silverimmo@silverimmo.com</p>
+                        <div class="col-md-12 my-2 bloc-contact">
+                            <div class="info-contact">
+                                <i class="mt-5 far fa-envelope"></i>
+                                <p>silverimmo@hotmail.com <br> silverimmo@silverimmo.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class=" bloc-form-contact text-center">
-                <h2 class="mt-5">Contactez nous !</h2>
-                <p>
-                    Si vous avez des questions sur les services que nous fournissons, utilisez simplement le formulaire ci-dessous. Nous essayons de répondre à toutes les questions et commentaires dans les 24 heures.
+        <div class="container-fluid contact">
+            <div class="container ">
+                <div class=" bloc-form-contact text-center pt-5">
+                    <h2 class="mt-5">Contactez nous !</h2>
+                    <p>
+                        Si vous avez des questions sur les services que nous fournissons, utilisez simplement le formulaire ci-dessous. Nous essayons de répondre à toutes les questions et commentaires dans les 24 heures.
 
-                </p>
-                <div class="res-form mx-1"></div>
-            </div>
-            <form id="contactForm" class="pt-3" name="sentMessage" novalidate="novalidate" method="post" action="/pages/contact.php">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="prenom" name="prenom" placeholder="Entrez votre prenom" class="form-control rounded-0" id="inputprenom">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="nom" name="nom" placeholder="Entrez votre nom" class="form-control rounded-0" id="inputnom">
-                    </div>
+                    </p>
+                    <div class="res-form mx-1"></div>
                 </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="email" name="email" placeholder="Entrez votre email" class="form-control rounded-0" id="inputemail">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="telephone" name="telephone" placeholder="Entrez votre numéro telephone" class="form-control rounded-0" id="inputtelephone">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-12">
-                        <input type="sujet" name="sujet" placeholder="Entrez votre sujet" class="form-control rounded-0" id="inputsujet">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <textarea class="form-control rounded-0" name="message" placeholder="Entrez votre message ici ..." id="exampleFormControlTextarea1" rows="2"></textarea>
+                <form id="contactForm" class="pt-3 pb-4" name="sentMessage" novalidate="novalidate" method="post" action="/pages/contact.php">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="prenom" name="prenom" placeholder="Entrez votre prenom" class="form-control rounded-0" id="inputprenom">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="nom" name="nom" placeholder="Entrez votre nom" class="form-control rounded-0" id="inputnom">
                         </div>
                     </div>
-                </div>
-                <button type="submit" id="btn-form" class="btn btn-primary btn-lg rounded-0">Envoyer votre message</button>
-            </form>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="email" name="email" placeholder="Entrez votre email" class="form-control rounded-0" id="inputemail">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="telephone" name="telephone" placeholder="Entrez votre numéro telephone" class="form-control rounded-0" id="inputtelephone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <input type="sujet" name="sujet" placeholder="Entrez votre sujet" class="form-control rounded-0" id="inputsujet">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control rounded-0" name="message" placeholder="Entrez votre message ici ..." id="exampleFormControlTextarea1" rows="2"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" id="btn-form" class="btn btn-primary btn-lg rounded-0">Envoyer votre message</button>
+                </form>
+            </div>
         </div>
     </section>
 
