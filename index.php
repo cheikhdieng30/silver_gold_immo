@@ -20,20 +20,8 @@
     include_once('pages/nav.php')
     ?>
     <!-- Banniere -->
-    <div class="cover-acceuil">
-        <div class="container-fluid pt-5">
-
-            <div class="row d-flex  align-items-center">
-                <div class="col-md-5">
-                    <h1 class="">
-                        <strong>Silver Gold Immobillier</strong>, partenaire incontournable de l'immobillier au senegal.
-                    </h1>
-                </div>
-                <div class="col-md-7">
-                    <img src="/images/cover-silver.jpeg" class="img-fluid" alt="Image banniere">
-                </div>
-            </div>
-        </div>
+    <div class="cover-accueil ">
+        <img src="/images/cover-accueil.jpeg" class="img-fluid" alt="Image banniere">
     </div>
     <!-- Jumbotron -->
 
@@ -75,37 +63,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/images/gerance.jpeg" class="img-fluid " width="100%" alt="Image Location & vente appartement/maison">
+                    <img src="/images/gerance1.jpeg" class="img-fluid " width="100%" alt="Image Location & vente appartement/maison">
                 </div>
                 <div class="col-md-6">
                     <h2 class="mt-5 text-center">Gérance</h2>
                     <p class="text-justify">
                         SILVER & GOLD IMMOBILIER Administre un ou plusieurs sites immobiliers et met en oeuvre les moyens techniques, administratifs, financiers et comptables de conservation ou d’amélioration du patrimoine immobilier selon la réglementation. Notre gestion consiste à: <br>
                     </p>
-                    <ul>
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Définir une stratégie de gestion du patrimoine immobilier
-                        </li>
 
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Planifier des travaux de rénovation, de réhabilitation de patrimoine immobilier
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Définir les besoins en rénovation du patrimoine immobilier
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Étudier la faisabilité technique, juridique et financière d’un projet
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Sélectionner des fournisseurs, sous-traitants, prestataires
-                        </li>
-                    </ul>
                 </div>
+                <ul class="mt-5">
+                    <li>
+                        <i class="fas fa-chevron-circle-right"></i>
+                        Définir une stratégie de gestion du patrimoine immobilier
+                    </li>
+
+                    <li>
+                        <i class="fas fa-chevron-circle-right"></i>
+                        Planifier des travaux de rénovation, de réhabilitation de patrimoine immobilier
+                    </li>
+                    <li>
+                        <i class="fas fa-chevron-circle-right"></i>
+                        Définir les besoins en rénovation du patrimoine immobilier
+                    </li>
+                    <li>
+                        <i class="fas fa-chevron-circle-right"></i>
+                        Étudier la faisabilité technique, juridique et financière d’un projet
+                    </li>
+                    <li>
+                        <i class="fas fa-chevron-circle-right"></i>
+                        Sélectionner des fournisseurs, sous-traitants, prestataires
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -114,31 +103,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/images/recouvrement.jpeg" class="img-fluid " width="100%" alt="Image Recouvrement">
+                    <img src="/images/recouvrement1.jpeg" class="img-fluid " width="100%" alt="Image Recouvrement">
                 </div>
                 <div class="col-md-6">
                     <h2 class="mt-5 text-center">Recouvrement</h2>
                     <p>
                         Qu’est-ce que le recouvrement des créances ? On appelle recouvrement de créances une activité réglementée permettant d’utiliser tous les moyens légaux à l’amiable ou judiciaires
                     </p>
-                    <p>Il existe deux techniques principales de recouvrement de créances :</p>
-                    <ul class="text-justify" style="list-style: none">
-                        <li>
-                            <strong><i class="fas fa-caret-right"></i> recouvrement amiable : la première phase de relance client</strong> <br>
-                            <small>
-                                Le recouvrement amiable est la première phase du recouvrement : il est appliqué quand un impayé est constaté. Cette technique de recouvrement consiste à relancer le client débiteur par téléphone ou bien par courrier. Il est important de préciser que les politiques de recouvrement diffèrent selon les entreprises.
-                                Plus une entreprise est grande, plus sa stratégie face aux impayés sera importante. Dans un premier temps, rien ne sert de s’alarmer, le mieux est de contacter le débiteur et comprendre les raisons de ce retard de paiement pour trouver ensemble une solution amiable adéquate.
-                            </small>
-                        </li>
-                        <li>
-                            <strong><i class="fas fa-caret-right"></i> recouvrement judiciaire ou contentieux</strong> <br>
-                            <small>
-                                Comme expliqué précédemment les procédures diffèrent selon les entreprises. Certaines entreprises se montreront fermes lors de leur échange avec le débiteur, là où d’autres entament directement une procédure de recouvrement judiciaire.
-                                Ce type de recouvrement est plus onéreux pour le créancier puisqu’il sous-entend des actions en justice. Un recouvrement judiciaire peut se présenter sous la forme d’une injonction de payer déposée auprès du tribunal compétant pour obtenir un titre exécutoire. Ce titre permet à un huissier mandaté de déclencher une opération de saisie matérielle ou financière du mauvais payeur.
-                            </small>
-                        </li>
-                    </ul>
+
                 </div>
+                <p>Il existe deux techniques principales de recouvrement de créances :</p>
+                <ul class="text-justify" style="list-style: none">
+                    <li>
+                        <strong><i class="fas fa-caret-right"></i> recouvrement amiable : la première phase de relance client</strong> <br>
+                        <small>
+                            Le recouvrement amiable est la première phase du recouvrement : il est appliqué quand un impayé est constaté. Cette technique de recouvrement consiste à relancer le client débiteur par téléphone ou bien par courrier. Il est important de préciser que les politiques de recouvrement diffèrent selon les entreprises.
+                            Plus une entreprise est grande, plus sa stratégie face aux impayés sera importante. Dans un premier temps, rien ne sert de s’alarmer, le mieux est de contacter le débiteur et comprendre les raisons de ce retard de paiement pour trouver ensemble une solution amiable adéquate.
+                        </small>
+                    </li>
+                    <li>
+                        <strong><i class="fas fa-caret-right"></i> recouvrement judiciaire ou contentieux</strong> <br>
+                        <small>
+                            Comme expliqué précédemment les procédures diffèrent selon les entreprises. Certaines entreprises se montreront fermes lors de leur échange avec le débiteur, là où d’autres entament directement une procédure de recouvrement judiciaire.
+                            Ce type de recouvrement est plus onéreux pour le créancier puisqu’il sous-entend des actions en justice. Un recouvrement judiciaire peut se présenter sous la forme d’une injonction de payer déposée auprès du tribunal compétant pour obtenir un titre exécutoire. Ce titre permet à un huissier mandaté de déclencher une opération de saisie matérielle ou financière du mauvais payeur.
+                        </small>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -151,13 +141,15 @@
                     <p>
                         Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.
                     </p>
-                    <p>
-                        Le syndic de copropriété établit et tient à jour la liste de tous les copropriétaires ainsi que les lots leur appartenant. Le syndic doit convoquer une assemblée générale de copropriété au moins une fois pas an. À cette occasion, il établit l'ordre du jour de l'assemblée générale, avec la collaboration du conseil syndical. À la fin de l'assemblée, c'est également le syndic qui rédige le compte rendu de la réunion et envoi le procès-verbal aux copropriétaires. Le syndic est ensuite chargé d'exécuter les délibérations de l'assemblée. La loi ne fixe aucun délai pour l'exécution des décisions: il est donc utile de le préciser dans la résolution.
-                    </p>
+
                 </div>
+
                 <div class="col-md-6">
-                    <img src="/images/syndic.jpeg" class="img-fluid " width="100%" alt="Image Syndic">
+                    <img src="/images/syndic1.jpeg" class="img-fluid " width="100%" alt="Image Syndic">
                 </div>
+                <p>
+                    Le syndic de copropriété établit et tient à jour la liste de tous les copropriétaires ainsi que les lots leur appartenant. Le syndic doit convoquer une assemblée générale de copropriété au moins une fois pas an. À cette occasion, il établit l'ordre du jour de l'assemblée générale, avec la collaboration du conseil syndical. À la fin de l'assemblée, c'est également le syndic qui rédige le compte rendu de la réunion et envoi le procès-verbal aux copropriétaires. Le syndic est ensuite chargé d'exécuter les délibérations de l'assemblée. La loi ne fixe aucun délai pour l'exécution des décisions: il est donc utile de le préciser dans la résolution.
+                </p>
             </div>
         </div>
     </div>

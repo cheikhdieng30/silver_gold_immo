@@ -20,16 +20,20 @@ li.nav-item a{
 li.nav-item a:hover{
     color: #53170e !important;;
 }
-div.cover-acceuil{
+div.cover-accueil img{
+    width: 100%;
+}
+div.cover-qsn{
     background-color: #f3f3f3;
     width: 100%;
-    height: 90vh;
+    height: auto;
 }
 div.cover-acceuil h1{
     padding: 5px 0px 5px 50px;
 }
 div.cover-acceuil h1 strong {
     color: #962e25;
+    font-weight: bold;
 }
 
 div.bg-app-mai h2,
@@ -42,7 +46,7 @@ div.syndic h2,
 div.syndic p,
 div.gerance h2,
 div.gerance p {
-    color: #ffffff;
+    color: #333;
 }
 div.recouvrement,
 div.syndic,
@@ -51,24 +55,26 @@ div.gerance,
 div.bg-app-mai,
 div.loc-mat {
     width: 100%;
-    height: 120vh;
+    height: auto;
+    padding: 70px 0;
+    background-color: #f3f3f3;
 }
 div.recouvrement{
-    background-color: #c5d9f2;
+    /* background-color: #c5d9f2; */
 }
 div.syndic {
-    background-color: #ffc750;
+    /* background-color: #ffc750; */
     
 }
 div.gerance{
-    background-color: #c3a8e6;
+    /* background-color: #c3a8e6; */
 }
 div.bg-app-mai {
-    background-color: #024466;
+    /* background-color: #024466; */
 }
 
 div.loc-mat {
-    background-color: #f27070;
+    /* background-color: #f27070; */
 }
 div.bg-app-mai p,
 div.loc-mat p,
@@ -79,10 +85,10 @@ div.syndic p {
     padding-top: 20px;
 }
 div.recouvrement ul li {
-    color: #ffffff;
+    color: #333;
 }
 div.gerance ul{
-    color: #ffffff;
+    color: #333;
     font-size: 1.2em;
     list-style: none;
 }
@@ -91,15 +97,28 @@ div.reseaux-sociaux a i {
     font-size: 2em;
     transition: 1s ease-in-out;
 }
-
+div.qui-sommes-nous-text{
+    font-size: 1.3em;
+}
 div.reseaux-sociaux a i:hover {
     color: #220905;
 }
 @media only screen and (max-width: 768px){
-    div.cover-acceuil{
+    div.cover-accueil  img {
+        display: none;
+    }
+    div.cover-accueil {
+        background: url(../images/cover-mobile.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:100%;
+        height: 100vmax;
+    }
+    div.cover-qsn{
         padding-top: 100px !important;
     }
-    div.cover-acceuil h1 {
+    div.cover-qsn h1 {
         padding: 5px !important;
         font-size: 1.5em !important;
     }
@@ -130,5 +149,9 @@ div.reseaux-sociaux a i:hover {
     }
     div.gerance ul li{
         font-size: 0.9em !important;
+    }
+    div.qui-sommes-nous-text{
+        font-size: 1.1em;
+        text-align: left !important;
     }
 }
