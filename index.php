@@ -21,136 +21,106 @@
     ?>
     <!-- Banniere -->
     <div class="cover-acceuil">
-        <img src="/images/covetr-accueil.jpeg" class="img-fluid" alt="Image banniere">
+        <div class="container-fluid pt-5">
+
+            <div class="row d-flex  align-items-center">
+                <div class="col-md-5">
+                    <h1 class="">
+                        <strong>Silver Gold Immobillier</strong>, partenaire incontournable de l'immobillier au senegal.
+                    </h1>
+                </div>
+                <div class="col-md-7">
+                    <img src="/images/cover-silver.jpeg" class="img-fluid" alt="Image banniere">
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Jumbotron -->
-    <section class="jumbotron jumbotron-fluid ">
+
+    <!--- Section Location & vente appartement/maison --->
+    <div class="bg-app-mai">
         <div class="container">
-            <div class="row d-flex text-center align-items-center mt-4" id="animate6">
-                <div class="col-xs-12 col-sm-12 col-md-4 qui-sommes-nous qsn-js">
-                    <img src="/images/logo.png " class="mt-3 mb-3 img-fluid" alt="image jumbotron" style="width:300px; height:300px">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/location.jpeg" class="img-fluid " width="100%" alt="Image Location & vente appartement/maison">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-8 qui-sommes-nous-text">
-                    <p class="text-muted text-justify qsn-js">
-                        Crée en 2013, SILVER IMMOBLIER devient un partenaire incontournable dans la location d'immeuble de dernière génération. En 2018, en vue de dynamiser son éventail d’action; le groupe SILVER IMMO prend son envol sur le marché de l’immobilier au Sénégal. SILVER & GOLD est né. Avec un service à la carte qui vous accompagne dans toutes vos démarches; notre équipe vise les meilleurs standards de qualité. Nous comptons dans nos compétences la location d 'appartements haut de gamme, la location d'appartements meublés, la décoration intérieure, ainsi que les finitions. De plus, pour plus de quietude, SIVER & GOLD reste votre partenaire privilégié dans la gestion de vos biens immobiliers. Loyauté, engagement, et performance font notre force. Faire affaire avec l’équipe SILVER & GOLD c'est choisir l'expertise au service de l'immobilier. AVEC SILVER & GOLD, VIVEZ L’IMMOBILIER CONFORTABLEMENT !
+                <div class="col-md-6">
+                    <h2 class="mt-5 text-center">Location & vente appartement/maison</h2>
+                    <p>
+                        SILVER & GOLD IMMO vous propose une large gamme de produits immobiliers se trouvant au Sénégal et accessibles financièrement à tous.
                     </p>
                 </div>
             </div>
         </div>
-    </section>
-    <!--- Section Location & vente appartement/maison --->
-    <section class="contenu-appartement mt-5">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="pt-3 pb-3">Location & vente appartement / maison</h1>
-                <p>
-                    SILVER & GOLD IMMOBILIER vous propose une large gamme de produits immobiliers se trouvant au Sénégal et accessibles financièrement à tous.
-                </p>
-            </div>
-            <div class="    ">
-                <div class="row" id="animate7">
-                    <div class="col-md-12 col-lg-6">
-                        <div class="bloc-appartement">
-                            <img src="/images/appartement/8.jpeg" class=" img-fluid loc-img-js" width="100%" alt="">
-                            <h4>Appartement</h4>
+    </div>
 
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-6">
-                        <div class="bloc-maison">
-                            <img src="/images/maison/maison4.jpeg" class=" img-fluid loc-img-js" width="100%" alt="">
-                            <h4>Maison</h4>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
     <!--- Section Location matériels de construction --->
-    <section class="contenu-materiels mt-5">
+    <div class="loc-mat">
         <div class="container">
-            <div class="text-center">
-                <h1 class="pt-3 pb-3">Location matériels de construction</h1>
-                <p>
-                    SILVER & GOLD IMMOBILIER vous propose Une gamme complète de matériels récents et de grandes marques,Le conseil et l’assistance de professionnels confirmés La souplesse des formules de location, de 1 jour à 2 ans et plus,L’entretien et le contrôle systématique des matériels avant chaque location,La mise en main des matériels et la formation de vos équipes,Une garantie de service et des procédures certifiées
-                </p>
-                <div class="row pt-4">
-                    <div class="col-md-10 mx-auto">
-                        <?php
-                        include_once('pages/carousel.php');
-                        $image1 = "/images/construction/1.jpeg";
-                        $image2 = "/images/construction/2.jpeg";
-                        $image3 = "/images/construction/3.jpeg";
-                        getCarousel($image1, $image2, $image3);
-                        ?>
-                    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mt-5 text-center">Location matériels de construction</h2>
+                    <p class="text-justify">
+                        SILVER & GOLD IMMOBILIER vous propose Une gamme complète de matériels récents et de grandes marques,Le conseil et l’assistance de professionnels confirmés La souplesse des formules de location, de 1 jour à 2 ans et plus,L’entretien et le contrôle systématique des matériels avant chaque location,La mise en main des matériels et la formation de vos équipes,Une garantie de service et des procédures certifiées
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/contruction.jpeg" class="img-fluid " width="100%" alt="Image Location & vente appartement/maison">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--- Section Location Gérance --->
-    <section class="contenu-gerance mt-5">
-        <div class="container" id="animate8">
-            <div class="text-center gerance-js">
-                <h1 class="pt-3 pb-3">Gérance</h1>
-                <p>
-                    SILVER & GOLD IMMOBILIER Administre un ou plusieurs sites immobiliers et met en oeuvre les moyens techniques, administratifs, financiers et comptables de conservation ou d’amélioration du patrimoine immobilier selon la réglementation.
-                    Notre gestion consiste à:
-                </p>
-
-            </div>
-            <div class="text-justify pt-3 bloc-gerance gerance-js">
-                <div class="row align-items-center">
-                    <div class="my-3 col-md-6">
-                        <div class="">
-                            <img src="/images/gerance.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
-                        </div>
-                    </div>
-                    <div class="my-3 col-md-6">
-                        <p>
+    <div class="gerance">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/gerance.jpeg" class="img-fluid " width="100%" alt="Image Location & vente appartement/maison">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mt-5 text-center">Gérance</h2>
+                    <p class="text-justify">
+                        SILVER & GOLD IMMOBILIER Administre un ou plusieurs sites immobiliers et met en oeuvre les moyens techniques, administratifs, financiers et comptables de conservation ou d’amélioration du patrimoine immobilier selon la réglementation. Notre gestion consiste à: <br>
+                    </p>
+                    <ul>
+                        <li>
                             <i class="fas fa-chevron-circle-right"></i>
                             Définir une stratégie de gestion du patrimoine immobilier
-                        </p>
+                        </li>
 
-                        <p>
+                        <li>
                             <i class="fas fa-chevron-circle-right"></i>
                             Planifier des travaux de rénovation, de réhabilitation de patrimoine immobilier
-                        </p>
-                        <p>
+                        </li>
+                        <li>
                             <i class="fas fa-chevron-circle-right"></i>
                             Définir les besoins en rénovation du patrimoine immobilier
-                        </p>
-                        <p>
+                        </li>
+                        <li>
                             <i class="fas fa-chevron-circle-right"></i>
                             Étudier la faisabilité technique, juridique et financière d’un projet
-                        </p>
-                        <p>
+                        </li>
+                        <li>
                             <i class="fas fa-chevron-circle-right"></i>
                             Sélectionner des fournisseurs, sous-traitants, prestataires
-                        </p>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--- Section Location Recouvrement --->
-    <section class="contenu-recouvrement mt-5">
-        <div class="container" id="animate9">
-            <div class="text-center recouvrement-js">
-                <h1 class="pt-3 pb-3">Recouvrement</h1>
-                <p>
-                    Qu’est-ce que le recouvrement des créances ? On appelle recouvrement de créances une activité réglementée permettant d’utiliser tous les moyens légaux à l’amiable ou judiciaires
-                </p>
-            </div>
-            <div class="row pt-4 bloc-recouvrement align-items-center recouvrement-js">
-                <div class="my-3 col-md-6">
-                    <div class="">
-                        <img src="/images/recouvrement.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
-                    </div>
+    <div class="recouvrement">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/recouvrement.jpeg" class="img-fluid " width="100%" alt="Image Recouvrement">
                 </div>
-                <div class="my-3 col-md-6">
+                <div class="col-md-6">
+                    <h2 class="mt-5 text-center">Recouvrement</h2>
+                    <p>
+                        Qu’est-ce que le recouvrement des créances ? On appelle recouvrement de créances une activité réglementée permettant d’utiliser tous les moyens légaux à l’amiable ou judiciaires
+                    </p>
                     <p>Il existe deux techniques principales de recouvrement de créances :</p>
                     <ul class="text-justify" style="list-style: none">
                         <li>
@@ -171,34 +141,26 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--- Section Location Syndic --->
-    <section class="contenu-syndic mt-5">
-        <div class="container" id="animate10">
-            <div class="text-center syndic-js">
-                <h1 class="pt-3 pb-3">Syndic</h1>
-                <p>
-                    Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.
-                </p>
-            </div>
-            <div class="row pt-4 bloc-syndic align-items-center syndic-js">
-                <div class="my-3 col-md-6">
-                    <p class="text-justify">
-                        Le syndic de copropriété établit et tient à jour la liste de tous les copropriétaires ainsi que les lots leur appartenant.
-
-                        Le syndic doit convoquer une assemblée générale de copropriété au moins une fois pas an. À cette occasion, il établit l'ordre du jour de l'assemblée générale, avec la collaboration du conseil syndical. À la fin de l'assemblée, c'est également le syndic qui rédige le compte rendu de la réunion et envoi le procès-verbal aux copropriétaires.
-
-                        Le syndic est ensuite chargé d'exécuter les délibérations de l'assemblée. La loi ne fixe aucun délai pour l'exécution des décisions: il est donc utile de le préciser dans la résolution.
+    <div class="syndic">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mt-5 text-center">Syndic</h2>
+                    <p>
+                        Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.
+                    </p>
+                    <p>
+                        Le syndic de copropriété établit et tient à jour la liste de tous les copropriétaires ainsi que les lots leur appartenant. Le syndic doit convoquer une assemblée générale de copropriété au moins une fois pas an. À cette occasion, il établit l'ordre du jour de l'assemblée générale, avec la collaboration du conseil syndical. À la fin de l'assemblée, c'est également le syndic qui rédige le compte rendu de la réunion et envoi le procès-verbal aux copropriétaires. Le syndic est ensuite chargé d'exécuter les délibérations de l'assemblée. La loi ne fixe aucun délai pour l'exécution des décisions: il est donc utile de le préciser dans la résolution.
                     </p>
                 </div>
-                <div class="my-3 col-md-6">
-                    <div class="">
-                        <img src="/images/syndic.jpeg" class="img-fluid" alt="Image banniere" style="width:100%; height:100%">
-                    </div>
+                <div class="col-md-6">
+                    <img src="/images/syndic.jpeg" class="img-fluid " width="100%" alt="Image Syndic">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Footer -->
     <?php include_once('pages/footer.php')  ?>
     <!-- Bootstrap core JS-->

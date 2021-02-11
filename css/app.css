@@ -6,162 +6,129 @@ html,body{
 }
 
 nav.navbar{
-    background-color: #ffffff !important;
+    background-color: #962e25 !important;
+    color: #f3f3f3 !important;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid #CD0000;
 }
 li.nav-item a{
     width: 100%;
-    color: #CD0000 !important;
+    color: #ffffff !important;
     font-size: 18px !important;
     transition: 1s ease-in-out;  
 }
 li.nav-item a:hover{
     color: #53170e !important;;
 }
-div.cover-acceuil img{
+div.cover-acceuil{
+    background-color: #f3f3f3;
     width: 100%;
-    height: 100%;
+    height: 90vh;
 }
-div.carousel-item  img{
+div.cover-acceuil h1{
+    padding: 5px 0px 5px 50px;
+}
+div.cover-acceuil h1 strong {
+    color: #962e25;
+}
+
+div.bg-app-mai h2,
+div.bg-app-mai p,
+div.loc-mat h2,
+div.loc-mat p,
+div.recouvrement h2,
+div.recouvrement p,
+div.syndic h2,
+div.syndic p,
+div.gerance h2,
+div.gerance p {
+    color: #ffffff;
+}
+div.recouvrement,
+div.syndic,
+div.gerance,
+div.gerance,
+div.bg-app-mai,
+div.loc-mat {
     width: 100%;
-    height: 85vmin;
+    height: 120vh;
 }
-section.contenu-appartement h1, section.contenu-materiels h1, section.contenu-gerance h1, section.contenu-recouvrement h1, section.contenu-syndic h1{
-    color: #CD0000;
+div.recouvrement{
+    background-color: #c5d9f2;
 }
-section.contenu-appartement p, section.contenu-materiels p, section.contenu-gerance p, section.contenu-recouvrement p, section.contenu-syndic p{
-    font-size: 1.25em;
+div.syndic {
+    background-color: #ffc750;
+    
 }
-div.bloc-gerance p, div.bloc-syndic p, div.bloc-recouvrement p{
-    font-size: 1.1em;
+div.gerance{
+    background-color: #c3a8e6;
 }
-div.bloc-appartement img, div.bloc-maison img{
-    height: 400px;
+div.bg-app-mai {
+    background-color: #024466;
 }
-div.bloc-appartement h4, div.bloc-maison h4{
-    padding: 10px;
-    width: 100%;
-    background-color: #992211;
-    color: #fff;
+
+div.loc-mat {
+    background-color: #f27070;
 }
-div.info-contact i{
-    font-size: 2.5em;
-    color: #CD0000;
+div.bg-app-mai p,
+div.loc-mat p,
+div.recouvrement p,
+div.gerance p,
+div.syndic p {
+    font-size: 1.4em;
+    padding-top: 20px;
 }
-div.info-contact p{
-    font-size: 1.5em;
+div.recouvrement ul li {
+    color: #ffffff;
 }
-div.bloc-form-contact p{
+div.gerance ul{
+    color: #ffffff;
     font-size: 1.2em;
-    margin-bottom: 25px;
+    list-style: none;
 }
-div.form-group input, textarea{
-    font-size: 1.5em !important;
-}
-button.btn-primary{
-    background-color: #CD0000 !important;
-    border:none;
+div.reseaux-sociaux a i {
+    color: #962e25;
+    font-size: 2em;
     transition: 1s ease-in-out;
 }
-button.btn-primary:hover{
-    background-color: #220905 !important;
+
+div.reseaux-sociaux a i:hover {
+    color: #220905;
 }
-div.footer{
-    border-top: 1px solid #CD0000;
-}
-div.reseaux-sociaux a i{
-   color: #CD0000 ;
-   font-size: 2em; 
-   transition: 1s ease-in-out;
-}
-div.reseaux-sociaux a i:hover{
-   color: #220905 ; 
-}
-/* Page qui sommmes nous et conatct*/
-.cover-qui-sommes-nous {
-    width: 100%;
-    height: 50vmin;
-}
-.cover-contact img, .cover-propriete img{
-     width: 100%;
-    height: auto;
-}
-div.qui-sommes-nous-text p{
-    font-size: 1.2em;
-}
-div.contact-info{
-   background-color: #f4f5f5;
-}
-@media screen and (max-width: 576px) {
-    div.cover-acceuil img {
-        display: none;
-    }
+@media only screen and (max-width: 768px){
     div.cover-acceuil{
-        background: url(../images/cover-mobile.jpeg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width:100%;
-        height: 100vmax;
+        padding-top: 60px !important;
     }
-    div.form-group input, textarea{
-        font-size: 1em !important;
+    div.cover-acceuil h1 {
+        padding: 5px !important;
+        font-size: 1.5em !important;
     }
-    section.contenu-appartement h1, section.contenu-materiels h1, section.contenu-gerance h1, section.contenu-recouvrement h1, section.contenu-syndic h1{
-        font-size: 1.3em;
+    div.recouvrement,
+    div.syndic,
+    div.gerance,
+    div.gerance,
+    div.bg-app-mai,
+    div.loc-mat {
+        width: 100%;
+        height: auto !important;
     }
-    section.contenu-appartement p, section.contenu-materiels p, section.contenu-gerance p, section.contenu-recouvrement p, section.contenu-syndic p{
-        font-size: 1.1em;
-        text-align: justify;
-    }
-    div.bloc-appartement img{
-        height: 250px;
-    }
-    div.bloc-gerance p, div.bloc-appartement p, div.bloc-syndic p, div.bloc-recouvrement p{
-        font-size: 1.05em;
-        text-align: left;
-    } 
-    div.bloc-recouvrement li {
-        padding-right: 22px;
-    }
-    div.bloc-recouvrement li strong {
+    div.bg-app-mai h2,
+    div.loc-mat h2,
+    div.recouvrement h2,
+    div.syndic h2,
+    div.gerance h2{
+        font-size: 1.4em !important;
         text-align: left !important;
     }
-    div.bloc-recouvrement small{
-        text-align: justify;
+    div.bg-app-mai p,
+    div.loc-mat p,
+    div.recouvrement p,
+    div.syndic p,
+    div.gerance p {
+        font-size: 1.1em !important;
+        text-align: left !important;
     }
-    div.contenu-page h3{
-        font-size: 1.3em;
+    div.gerance ul li{
+        font-size: 0.9em !important;
     }
-    div.bloc-form-contact p{
-        font-size: 1.05em;
-        text-align: justify;
-    }
-    button.btn-primary{
-        width: 100%;
-    }
-    div.info-contact i{
-        font-size: 2em;
-    }
-    div.info-contact p{
-        font-size: 1.1em;
-    }
-    div.reseaux-sociaux a i{
-        font-size: 1.5em; 
-    }
-    div.footer h5{
-        font-size: 1.2em;
-    }
-    div.qui-sommes-nous img{
-        width: 200px !important;
-        height: 200px !important;
-        padding-bottom: 20px;
-        
-    }
-    div.qui-sommes-nous-text p{
-        font-size: 1.1em;
-    }
-
 }
