@@ -97,7 +97,7 @@ div.reseaux-sociaux a i:hover {
 }
 @media only screen and (max-width: 768px){
     div.cover-acceuil{
-        padding-top: 60px !important;
+        padding-top: 100px !important;
     }
     div.cover-acceuil h1 {
         padding: 5px !important;
