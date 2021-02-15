@@ -16,8 +16,9 @@ nav.navbar{
 li.nav-item a{
     width: 100%;
     color: #ffffff !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
     transition: 1s ease-in-out;  
+    margin-left: 30px;
 }
 li.nav-item a:hover{
     color: #53170e !important;
@@ -64,7 +65,8 @@ div.content-realisation{
     width:100%;
     height: auto;
 }
-div.content-realisation strong{
+div.content-realisation strong,
+div.content-realisation span{
     font-size: 5em;
 }
 div.content-realisation h4{
@@ -97,8 +99,24 @@ div.footer .footer-content a:hover{
 }
 div.cp h5{
     font-size: 1.2em ;
+    padding-bottom: 15px;
+}
+div.bloc-contact i {
+    font-size: 2em;
+    color: #962e25;
+}
+#btn-form {
+    background-color: #962e25;
+    border: none;
+}
+#btn-form:hover{
+    background-color: #53170e;
 }
 @media only screen and (max-width: 768px){
+    li.nav-item a {
+        font-size: 16px !important;
+        margin-left: 0 !important;
+    }
     div.cover-accueil  img {
         display: none;
     }
@@ -115,7 +133,8 @@ div.cp h5{
         width: 100% !important;
         margin: 10px 0 !important;
     }
-    div.content-realisation strong{
+    div.content-realisation strong,
+    div.content-realisation span {
         font-size:3.5em;
     }
     div.content-realisation h4{
@@ -132,6 +151,9 @@ div.cp h5{
     div.cp h5{
         font-size: 1.1em !important;
     }
+    #btn-form {
+        width: 100% !important;
+    }
 }
 @media only screen and (max-width: 1200px){
     div.card{
@@ -139,6 +161,9 @@ div.cp h5{
         margin: 10px 0 !important;
     }
     div.footer .footer-content a{
+        width: 100% !important;
+    }
+    #btn-form {
         width: 100% !important;
     }
 }

@@ -42,7 +42,7 @@
                     getCarousel($image1, $image2, $image3);
                     ?>
                 </div>
-                <div class="col-md-4 mx-auto" id="animate1" style="background-color: #f4f4f5;">
+                <div class="col-md-4 mx-auto" id="animate1" style="background-color: #f6f6f6;">
                     <div class="row text-center d-flex align-items-center ">
                         <div class="col-md-12 my-2 bloc-contact">
                             <div class="info-contact">

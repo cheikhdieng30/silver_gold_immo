@@ -87,21 +87,21 @@
     </div>
     <div class="content-realisation">
         <div class="container ">
-            <div class="row text-center pt-1">
-                <div class="col-sm-6 col-md-6 col-lg-3 ">
-                    <strong>245+</strong>
+            <div class="row text-center pt-1 counter">
+                <div class="col-sm-6 col-md-6 col-lg-3 data ">
+                    <strong class="counter-value" data-count="245">0</strong><span>+</span>
                     <h4>Appartements vendus</h4>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <strong>4,300+</strong>
+                <div class="col-sm-6 col-md-6 col-lg-3 data">
+                    <strong class="counter-value" data-count="4300">0</strong><span>+</span>
                     <h4>Clients satisfaits</h4>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <strong>1,003+</strong>
+                <div class="col-sm-6 col-md-6 col-lg-3 data">
+                    <strong class="counter-value" data-count="1300">0</strong><span>+</span>
                     <h4>Maison louées</h4>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <strong>800+</strong>
+                <div class="col-sm-6 col-md-6 col-lg-3 data">
+                    <strong class="counter-value" data-count="800">0</strong><span>+</span>
                     <h4>Liste proprietes</h4>
                 </div>
             </div>
