@@ -16,9 +16,6 @@
                     <a class="nav-link js-scroll-trigger" href="/pages/propriete.php">PROPRIETE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/pages/about.php">QUI SOMMES NOUS</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="/pages/contact.php">AGENCE</a>
                 </li>
 

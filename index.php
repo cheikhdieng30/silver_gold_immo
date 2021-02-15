@@ -25,114 +25,89 @@
     </div>
     <!-- Jumbotron -->
 
-    <!--- Section Location & vente appartement/maison --->
-    <div class="bg-app-mai">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <h2 class="mt-5 text-center pb-5">Location & vente appartement/maison</h2>
-                <div class="col-md-6">
-                    <img src="/images/appartement/2.jpeg" class="img-fluid " width="100%" style="height: 350px;" alt="Image Location & vente appartement/maison">
+    <div class="content-activite">
+        <div class="container ">
+            <div class="pt-5 text-center">
+                <h2>
+                    ACTIVITES
+                </h2>
+                <p>SILVER & GOLD IMMO vous propose une large gamme de produits immobiliers se trouvant au Sénégal et accessibles financièrement à tous.</p>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" style="width: 22rem; height:500px;">
+                        <i class="mt-5 fas fa-home"></i>
+                        <h3>Location maison - appartement</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla dolore non, dolorum consectetur natus soluta asperiores ipsam corrupti illum maiores?</p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <p>
-                        SILVER & GOLD IMMO vous propose une large gamme de produits immobiliers se trouvant au Sénégal et accessibles financièrement à tous.
-                    </p>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" style="width: 22rem; height:500px;">
+                        <i class="mt-5 fas fa-city"></i>
+                        <h3>Vente maison - appartement</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla dolore non, dolorum consectetur natus soluta asperiores ipsam corrupti illum maiores?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" style="width: 22rem; height:500px;">
+                        <i class="mt-5 fas fa-tasks"></i>
+                        <h3>Gérance</h3>
+                        <p>SILVER & GOLD IMMOBILIER Administre un ou plusieurs sites immobiliers et met en oeuvre les moyens techniques, administratifs, financiers et comptables de conservation ou d’amélioration du patrimoine immobilier selon la réglementation.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" style="width: 22rem; height:500px;">
+                        <i class="mt-5 fas fa-chart-line"></i>
+                        <h3>Recouvrement</h3>
+                        <p>Qu’est-ce que le recouvrement des créances ? On appelle recouvrement de créances une activité réglementée permettant d’utiliser tous les moyens légaux à l’amiable ou judiciaires </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" style="width: 22rem; height:500px;">
+                        <i class="mt-5 fas fa-hand-holding-usd"></i>
+                        <h3>Syndic</h3>
+                        <p> Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" style="width: 22rem; height:500px;">
+                        <i class="mt-5 fas fa-tools"></i>
+                        <h3>Materiels de construction</h3>
+                        <p>SILVER & GOLD IMMOBILIER vous propose une gamme complète de matériels récents et de grandes marques. Le conseil et l’assistance de professionnels confirmés La souplesse des formules de location, de 1 jour à 2 ans et plus. L’entretien et le contrôle systématique des matériels avant chaque location.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-5 text-center">
+        <h2 class="mb-3">
+            REALISATIONS
+        </h2>
+        <p>SILVER & GOLD IMMO vous propose une large gamme de produits immobiliers se trouvant au Sénégal et accessibles financièrement à tous.</p>
+    </div>
+    <div class="content-realisation">
+        <div class="container ">
+            <div class="row text-center pt-1">
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <strong>245+</strong>
+                    <h4>Appartements vendus</h4>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <strong>4,300+</strong>
+                    <h4>Clients satisfaits</h4>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <strong>1,003+</strong>
+                    <h4>Maison louées</h4>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <strong>800+</strong>
+                    <h4>Liste proprietes</h4>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--- Section Location matériels de construction --->
-    <div class="loc-mat">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <h2 class="mt-5 text-center pb-5">Location matériels de construction</h2>
-                <div class="col-md-6">
-                    <p class="text-justify">
-                        SILVER & GOLD IMMOBILIER vous propose Une gamme complète de matériels récents et de grandes marques,Le conseil et l’assistance de professionnels confirmés La souplesse des formules de location, de 1 jour à 2 ans et plus,L’entretien et le contrôle systématique des matériels avant chaque location,La mise en main des matériels et la formation de vos équipes,Une garantie de service et des procédures certifiées
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="/images/contruction.jpeg" class="img-fluid " width="100%" alt="Image Location & vente appartement/maison">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--- Section Location Gérance --->
-    <div class="gerance">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <h2 class="mt-5 text-center pb-5">Gérance</h2>
-                <div class="col-md-6">
-                    <img src="/images/gerance1.jpeg" class="img-fluid " width="100%" alt="Image Location & vente appartement/maison">
-                </div>
-                <div class="col-md-6">
-                    <p class="text-justify">
-                        SILVER & GOLD IMMOBILIER Administre un ou plusieurs sites immobiliers et met en oeuvre les moyens techniques, administratifs, financiers et comptables de conservation ou d’amélioration du patrimoine immobilier selon la réglementation. Notre gestion consiste à: <br>
-                    </p>
-                    <ul class="mt-5">
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Définir une stratégie de gestion du patrimoine immobilier
-                        </li>
-
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Planifier des travaux de rénovation, de réhabilitation de patrimoine immobilier
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Définir les besoins en rénovation du patrimoine immobilier
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Étudier la faisabilité technique, juridique et financière d’un projet
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-circle-right"></i>
-                            Sélectionner des fournisseurs, sous-traitants, prestataires
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!--- Section Location Recouvrement --->
-    <div class="recouvrement">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <h2 class="mt-5 text-center pb-5">Recouvrement</h2>
-                <div class="col-md-6">
-                    <img src="/images/recouvrement1.jpeg" class="img-fluid " width="100%" alt="Image Recouvrement">
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        Qu’est-ce que le recouvrement des créances ? On appelle recouvrement de créances une activité réglementée permettant d’utiliser tous les moyens légaux à l’amiable ou judiciaires
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--- Section Location Syndic --->
-    <div class="syndic">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <h2 class="mt-5 text-center mb-5">Syndic</h2>
-                <div class="col-md-6">
-                    <p>
-                        Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.
-                    </p>
-
-                </div>
-
-                <div class="col-md-6">
-                    <img src="/images/syndic1.jpeg" class="img-fluid " width="100%" alt="Image Syndic">
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Footer -->
     <?php include_once('pages/footer.php')  ?>
     <!-- Bootstrap core JS-->
