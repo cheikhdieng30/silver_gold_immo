@@ -12,13 +12,13 @@
                 <div class="row">
                     <h5>Nous suivre !</h5>
                     <div class="col-md-12">
-                        <a class="btn mx-1" title="facebook" href=""><i class="rs-js fab fa-facebook-f"></i> Facebook</a>
+                        <a class="btn mx-1" title="facebook" href=""><i class="rs-js fab fa-facebook-f"> Facebook</i> </a>
                     </div>
                     <div class="col-md-12">
-                        <a class="btn mx-1" title="instagram" href=""><i class="rs-js fab fa-instagram"></i> Instagram</a>
+                        <a class="btn mx-1" title="instagram" href=""><i class="rs-js fab fa-instagram"> Instagram</i></a>
                     </div>
                     <div class="col-md-12">
-                        <a class="btn mx-1" title="twitter" href=""><i class="rs-js fab fa-twitter"></i> Twitter</a>
+                        <a class="btn mx-1" title="twitter" href=""><i class="rs-js fab fa-twitter"> Twitter</i></a>
                     </div>
                     <div class="col-md-12">
                         <a class="btn mx-1" title="Google +" href=""><i class="rs-js fab fa-google-plus"> Google +</i></a>

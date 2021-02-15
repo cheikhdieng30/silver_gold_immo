@@ -42,6 +42,7 @@ div.card{
     padding: 20px;
     margin: 20px 10px;
     border-radius: 5px;
+    background-color: #fff;
 }
 div.card i{
     font-size: 5em;
@@ -71,6 +72,7 @@ div.content-realisation span{
 }
 div.content-realisation h4{
     font-size: 1.5em;
+    font-weight: 580;
 }
 div.footer{
     width: 100%;
@@ -131,6 +133,7 @@ div.bloc-contact i {
     
     div.card{
         width: 100% !important;
+        height: auto !important;
         margin: 10px 0 !important;
     }
     div.content-realisation strong,
@@ -138,7 +141,7 @@ div.bloc-contact i {
         font-size:3.5em;
     }
     div.content-realisation h4{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     div.footer .footer-content a{
         width: 100% !important;
