@@ -39,20 +39,23 @@ div.content-activite {
 }
 div.card{
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 20px 10px;
     border-radius: 5px;
     background-color: #fff;
 }
-div.card i{
+/* div.card i{
     font-size: 5em;
     padding-bottom: 15px;
     color: #962e25 !important;;
-}
+} */
 div.card h3{
     font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin: 15px 0;
+}
+div.card p{
+    padding: 15px 20px;
 }
 div.content-realisation{
     margin: 40px 0 0 0 ;

@@ -35,43 +35,44 @@
             </div>
             <div class="row pt-5">
                 <div class="col-md-6 col-lg-4">
-                    <div class="card shadow" style="width: 22rem; height:470px;">
-                        <i class="mt-5 fas fa-home"></i>
+                    <div class="card shadow" style="width: 22rem; height:530px;">
+                        <!--<i class="mt-5 fas fa-home"></i>-->
+                        <img src="/images/recouvrement1.jpeg" width="100%" class="img-fluid" alt="Image banniere">
                         <h3>Location maison - appartement</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla dolore non, dolorum consectetur natus soluta asperiores ipsam corrupti illum maiores?</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="card shadow" style="width: 22rem; height:470px;">
-                        <i class="mt-5 fas fa-city"></i>
+                    <div class="card shadow" style="width: 22rem; height:530px;">
+                        <img src="/images/gerance1.jpeg" width="100%" class="img-fluid" alt="Image banniere">
                         <h3>Vente maison - appartement</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla dolore non, dolorum consectetur natus soluta asperiores ipsam corrupti illum maiores?</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="card shadow" style="width: 22rem; height:470px;">
-                        <i class="mt-5 fas fa-tasks"></i>
+                    <div class="card shadow" style="width: 22rem; height:530px;">
+                        <img src="/images/gerance1.jpeg" width="100%" class="img-fluid" alt="Image banniere">
                         <h3>Gérance</h3>
                         <p>SILVER & GOLD IMMOBILIER Administre un ou plusieurs sites immobiliers et met en oeuvre les moyens techniques, administratifs, financiers et comptables de conservation ou d’amélioration du patrimoine immobilier selon la réglementation.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="card shadow" style="width: 22rem; height:470px;">
-                        <i class="mt-5 fas fa-chart-line"></i>
+                    <div class="card shadow" style="width: 22rem; height:530px;">
+                        <img src="/images/recouvrement1.jpeg" width="100%" class="img-fluid" alt="Image Recouvrement">
                         <h3>Recouvrement</h3>
                         <p>Qu’est-ce que le recouvrement des créances ? On appelle recouvrement de créances une activité réglementée permettant d’utiliser tous les moyens légaux à l’amiable ou judiciaires </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="card shadow" style="width: 22rem; height:470px;">
-                        <i class="mt-5 fas fa-hand-holding-usd"></i>
+                    <div class="card shadow" style="width: 22rem; height:530px;">
+                        <img src="/images/syndic1.jpeg" width="100%" class="img-fluid" alt="Image Syndic">
                         <h3>Syndic</h3>
                         <p> Un syndic est une personne désignée dans un immeuble par l’assemblée générale des copropriétaires pour prendre en charge la gestion des ‘parties communes’. Il est en quelque sorte l’organe exécutif de l’Association des Copropriétaires.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="card shadow" style="width: 22rem; height:470px;">
-                        <i class="mt-5 fas fa-tools"></i>
+                    <div class="card shadow" style="width: 22rem; height:530px;">
+                        <img src="/images/syndic1.jpeg" width="100%" class="img-fluid" alt="Image Materiels de construction">
                         <h3>Materiels de construction</h3>
                         <p>SILVER & GOLD IMMOBILIER vous propose une gamme complète de matériels récents et de grandes marques. Le conseil et l’assistance de professionnels confirmés La souplesse des formules de location, de 1 jour à 2 ans et plus. L’entretien et le contrôle systématique des matériels avant chaque location.</p>
                     </div>
