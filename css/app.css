@@ -52,7 +52,7 @@ div.card{
 div.card h3{
     font-size: 1.2em;
     font-weight: bold;
-    margin: 15px 0;
+    margin: 30px 0 0 0;
 }
 div.card p{
     padding: 15px 20px;
@@ -138,6 +138,9 @@ div.bloc-contact i {
         width: 100% !important;
         height: auto !important;
         margin: 10px 0 !important;
+    }
+    div.card p{
+        padding: 15px 10px !important;
     }
     div.content-realisation strong,
     div.content-realisation span {

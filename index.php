@@ -37,15 +37,15 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card shadow" style="width: 22rem; height:530px;">
                         <!--<i class="mt-5 fas fa-home"></i>-->
-                        <img src="/images/recouvrement1.jpeg" width="100%" class="img-fluid" alt="Image banniere">
-                        <h3>Location maison - appartement</h3>
+                        <img src="/images/app.jpeg" width="100%" class="img-fluid" alt="Image banniere">
+                        <h3>Location & Vente Appartement</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla dolore non, dolorum consectetur natus soluta asperiores ipsam corrupti illum maiores?</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card shadow" style="width: 22rem; height:530px;">
-                        <img src="/images/gerance1.jpeg" width="100%" class="img-fluid" alt="Image banniere">
-                        <h3>Vente maison - appartement</h3>
+                        <img src="/images/maison.jpeg" width="100%" style="height: 235px !important;" class="img-fluid" alt="Image banniere">
+                        <h3>Vente & Vente Maison</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla dolore non, dolorum consectetur natus soluta asperiores ipsam corrupti illum maiores?</p>
                     </div>
                 </div>
@@ -72,8 +72,8 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card shadow" style="width: 22rem; height:530px;">
-                        <img src="/images/syndic1.jpeg" width="100%" class="img-fluid" alt="Image Materiels de construction">
-                        <h3>Materiels de construction</h3>
+                        <img src="/images/mat-const.jpeg" width="100%" class="img-fluid" alt="Image Materiels de construction">
+                        <h3>Materiels de Construction</h3>
                         <p>SILVER & GOLD IMMOBILIER vous propose une gamme complète de matériels récents et de grandes marques. Le conseil et l’assistance de professionnels confirmés La souplesse des formules de location, de 1 jour à 2 ans et plus. L’entretien et le contrôle systématique des matériels avant chaque location.</p>
                     </div>
                 </div>
