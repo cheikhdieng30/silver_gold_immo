@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <a href="https://wa.me/221772468043"> <img src="images/whatsapp-logo.svg" width="50px" alt="Whatsapp api" title="Whatsapp" class="whatsapp-api"></a>
     <!-- Nav bar -->
     <?php
     include_once('pages/nav.php')

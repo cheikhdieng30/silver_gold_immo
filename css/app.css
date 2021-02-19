@@ -6,7 +6,13 @@ html,body{
   box-sizing: border-box;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
-
+img.whatsapp-api{
+  float: left;
+  position: fixed;
+  right:15px;
+  bottom:2px;
+  z-index: 10;
+}
 nav.navbar{
     background-color: #962e25 !important;
     color: #f3f3f3 !important;
@@ -118,6 +124,14 @@ div.bloc-contact i {
     background-color: #53170e;
 }
 @media only screen and (max-width: 768px){
+    img.whatsapp-api{
+        float: left;
+        position: fixed;
+        right:15px;
+        bottom:2px;
+        z-index: 10;
+        width: 30px !important;
+    }
     li.nav-item a {
         font-size: 16px !important;
         margin-left: 0 !important;
