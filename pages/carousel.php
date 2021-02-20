@@ -5,13 +5,13 @@
             <div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\">
                 <div class=\"carousel-inner\">
                     <div class=\"carousel-item active\">
-                        <img class=\"d-block w-100\" src=\"$image1\" class=\"img-fluid\" alt=\"First slide\">
+                        <img class=\"d-block w-100\" style=\"height:300px\" src=\"$image1\" class=\"img-fluid\" alt=\"First slide\">
                     </div>
                     <div class=\"carousel-item\">
-                        <img class=\"d-block w-100\" src=\"$image2\" class=\"img-fluid\" alt=\"Second slide\">
+                        <img class=\"d-block w-100\" style=\"height:300px\" src=\"$image2\" class=\"img-fluid\" alt=\"Second slide\">
                     </div>
                     <div class=\"carousel-item\">
-                        <img class=\"d-block w-100\" src=\"$image3 \" class=\"img-fluid\" alt=\"Third slide\">
+                        <img class=\"d-block w-100\" style=\"height:300px\" src=\"$image3 \" class=\"img-fluid\" alt=\"Third slide\">
                     </div>
                 </div>
                 <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">

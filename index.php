@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <a href="https://wa.me/221772468043"> <img src="images/whatsapp-logo.svg" width="50px" alt="Whatsapp api" title="Whatsapp" class="whatsapp-api"></a>
+    
     <!-- Nav bar -->
     <?php
     include_once('pages/nav.php')
@@ -85,7 +85,7 @@
         <h2 class="mb-3">
             REALISATIONS
         </h2>
-        <p>SILVER & GOLD IMMO vous propose une large gamme de produits immobiliers se trouvant au Sénégal et accessibles financièrement à tous.</p>
+        <p class="text-lowercase">cHOISIR L'EXPERTISE AU SERVICE DE L'IMMOBILIER AVEC SILVER & GOLD, VIVEZ L’IMMOBILIER</p>
     </div>
     <div class="content-realisation">
         <div class="container ">

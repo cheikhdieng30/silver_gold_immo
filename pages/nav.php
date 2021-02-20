@@ -12,7 +12,7 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="/">ACCUEIL</a>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="/pages/propriete.php">PROPRIETE</a>
                 </li>
@@ -25,3 +25,4 @@
 
     </div>
 </nav>
+<a href="https://wa.me/221772468043"> <img src="/images/whatsapp-logo.svg" width="50px" alt="Whatsapp api" title="Whatsapp" class="whatsapp-api"></a>

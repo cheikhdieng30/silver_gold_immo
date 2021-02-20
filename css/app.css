@@ -37,7 +37,7 @@ div.cover-accueil img{
     width:100%;
     height: 100vh;
 }
-div.content-activite {
+div.content-activite, div .content-prop {
     background-color: #f6f6f6;
     padding-bottom: 50px;
     width: 100%;
@@ -82,6 +82,13 @@ div.content-realisation span{
 div.content-realisation h4{
     font-size: 1.5em;
     font-weight: 580;
+}
+div.bloc-card-app h3, div.bloc-card-appn h3, div.bloc-card-mai h3{
+    font-size: 0.9em;
+    padding: 5px 5px 5px 20px;
+}
+div.bloc-card-app p, div.bloc-card-appn p, div.bloc-card-mai p{
+    font-size: 0.9em;
 }
 div.footer{
     width: 100%;
@@ -130,7 +137,7 @@ div.bloc-contact i {
         right:15px;
         bottom:2px;
         z-index: 10;
-        width: 30px !important;
+        width: 40px !important;
     }
     li.nav-item a {
         font-size: 16px !important;
