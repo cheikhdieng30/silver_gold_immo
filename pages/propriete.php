@@ -24,6 +24,7 @@
     </div>
     <div class="content-prop">
         <div class="container mt-5">
+            <!-- Section Apps meublés  -->
             <div class="row  mt-5 mb-5">
                 <h2 class="text-center">
                     Appartements meublés
@@ -66,11 +67,11 @@
                     <div class="card shadow" style="width: 22rem; height:auto;">
                         <!--<i class="mt-5 fas fa-home"></i>-->
                         <?php
-                            include_once('carousel.php');
-                            $image1 = "/images/appartement/7.jpeg";
-                            $image2 = "/images/appartement/8.jpeg";
-                            $image3 = "/images/appartement/9.jpeg";
-                            getCarousel($image1, $image2, $image3);
+                        include_once('carousel.php');
+                        $image1 = "/images/appartement/7.jpeg";
+                        $image2 = "/images/appartement/8.jpeg";
+                        $image3 = "/images/appartement/9.jpeg";
+                        getCarousel($image1, $image2, $image3);
                         ?>
                         <h3 class="text-left"> <i class="fas fa-map-marker-alt"></i> Corniche Ouest</h3>
                         <div class="d-flex justify-content-between">
@@ -80,7 +81,8 @@
                     </div>
                 </div>
             </div>
-
+            <!-- Fin Section Apps meublés  -->
+            <!-- Section Apps non meublés  -->
             <div class="row mt-5 mb-5">
                 <h2 class="text-center">
                     Appartements non meublés
@@ -137,6 +139,8 @@
                     </div>
                 </div>
             </div>
+            <!-- Fin Section Apps non meublés  -->
+            <!-- Section Maison  -->
             <div class="row  mt-5 mb-5">
                 <h2 class="text-center">
                     Maison
@@ -189,8 +193,59 @@
                     </div>
                 </div>
             </div>
-
+            <!-- Fin Section Maison  -->
+            <!-- Section Mat de Const -->
+            <div class="row row  mt-5 mb-5">
+                <h2 class="text-center">
+                    Matériels de constructoon
+                </h2>
+                <div class="col-md-6 col-lg-6 mat-const mt-5">
+                    <?php
+                    include_once('carousel.php');
+                    $image1 = "/images/construction/7.jpeg";
+                    $image2 = "/images/construction/4.jpeg";
+                    $image3 = "/images/construction/3.jpeg";
+                    getCarousel($image1, $image2, $image3);
+                    ?>
+                </div>
+                <div class="col-md-6 col-lg-6 mat-const mt-5">
+                    <?php
+                    include_once('carousel.php');
+                    $image1 = "/images/construction/1.jpeg";
+                    $image2 = "/images/construction/2.jpeg";
+                    $image3 = "/images/construction/6.jpeg";
+                    getCarousel($image1, $image2, $image3);
+                    ?>
+                </div>
+            </div>
+            <!-- Fiin Section mat de const -->
+            <!-- Section vente de terrain -->
+            <div class="row row  mt-5 mb-5">
+                <h2 class="text-center">
+                    Vente de terrain
+                </h2>
+                <div class="col-md-6 col-lg-6 vente-terr mt-5">
+                    <?php
+                    include_once('carousel.php');
+                    $image1 = "/images/terrain/2.jpeg";
+                    $image2 = "/images/terrain/1.jpeg";
+                    $image3 = "/images/terrain/3.jpeg";
+                    getCarousel($image1, $image2, $image3);
+                    ?>
+                </div>
+                <div class="col-md-6 col-lg-6 vente-terr mt-5">
+                    <?php
+                    include_once('carousel.php');
+                    $image1 = "/images/terrain/2.jpeg";
+                    $image2 = "/images/terrain/1.jpeg";
+                    $image3 = "/images/terrain/3.jpeg";
+                    getCarousel($image1, $image2, $image3);
+                    ?>
+                </div>
+            </div>
+            <!-- Section vente de terrain -->
         </div>
+
         <!-- Footer -->
         <?php include_once('footer.php')  ?>
         <!-- Bootstrap core JS-->

@@ -4,15 +4,11 @@
         <div class="row footer-content align-items-center">
             <div class="col-sm-12 col-md-10 col-lg-10 ">
                 <h5>Qui sommes nous !</h5>
-                <p class="text-justify">
-                    Crée en 2013, SILVER IMMOBLIER devient un partenaire incontournable dans la location d'immeuble de dernière génération.
+                <div class="text-justify">
+                    <p>Crée en 2013, SILVER IMMOBLIER devient un partenaire incontournable dans la location d'immeuble de dernière génération. En 2018, en vue de dynamiser son éventail d’action; le groupe SILVER IMMO prend son envol sur le marché de l’immobilier au Sénégal. SILVER & GOLD est né avec un service à la carte qui vous accompagne dans toutes vos démarches; notre équipe vise les meilleurs standards de qualité. Nous comptons dans nos compétences la location d 'appartements haut de gamme, la location d'appartements meublés, la décoration intérieure, ainsi que les finitions.</p>
 
-                    En 2018, en vue de dynamiser son éventail d’action; le groupe SILVER IMMO prend son envol sur le marché de l’immobilier au Sénégal. SILVER & GOLD est né.
-
-                    Avec un service à la carte qui vous accompagne dans toutes vos démarches; notre équipe vise les meilleurs standards de qualité. Nous comptons dans nos compétences la location d 'appartements haut de gamme, la location d'appartements meublés, la décoration intérieure, ainsi que les finitions.
-
-                    De plus, pour plus de quietude, SIVER & GOLD reste votre partenaire privilégié dans la gestion de vos biens immobiliers. Loyauté, engagement, et performance font notre force. Faire affaire avec l’équipe SILVER & GOLD c'est choisir l'expertise au service de l'immobilier.
-                </p>
+                    <p>De plus, pour plus de quietude, SIVER & GOLD reste votre partenaire privilégié dans la gestion de vos biens immobiliers. Loyauté, engagement, et performance font notre force. Faire affaire avec l’équipe SILVER & GOLD c'est choisir l'expertise au service de l'immobilier.</p>
+                </div>
                 <h6>AVEC SILVER & GOLD, VIVEZ L’IMMOBILIER CONFORTABLEMENT !</h6>
             </div>
             <div class="col-sm-12 col-md-2 col-lg-2">
@@ -34,8 +30,15 @@
             </div>
 
         </div>
-        <div class="pt-4 mb-3 text-center cp">
-            <h5>Copyright © Silver Gold Immobilier 2013 - <?php echo date('Y') ?> </h5>
+        .<div class="row text-center">
+            <div class="col-md-6 col-lg-6 pt-2 mb-1  cp">
+                <h5>Copyright © Silver Gold Immobilier 2013 - <?php echo date('Y') ?> </h5>
+            </div>
+            <div class="col-md-6 col-lg-6 pt-2 mb-1 cp">
+                <h5>
+                    Site web réalise par <a href="http://www.beedigitaltech.com">Bee Digital</a>
+                </h5>
+            </div>
         </div>
     </div>
 </div>

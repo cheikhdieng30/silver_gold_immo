@@ -33,7 +33,7 @@
         </div>
         <div class="container ">
             <div class="row mt-5">
-                <div class="col-md-8">
+                <div class="col-md-8" >
                     <?php
                     include_once('carousel.php');
                     $image1 = "/images/bureau/1.jpeg";
