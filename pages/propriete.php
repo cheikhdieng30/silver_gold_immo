@@ -80,6 +80,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-4 bloc-card-app">
+                    <div class="card shadow" style="width: 22rem; height:auto;">
+                        <!--<i class="mt-5 fas fa-home"></i>-->
+                        <?php
+                        include_once('carousel.php');
+                        $image1 = "/images/appartement/10.jpeg";
+                        $image2 = "/images/appartement/11.jpeg";
+                        $image3 = "/images/appartement/12.jpeg";
+                        getCarousel($image1, $image2, $image3);
+                        ?>
+                        <h3 class="text-left"> <i class="fas fa-map-marker-alt"></i> France</h3>
+                        <div class="d-flex justify-content-between">
+                            <p>2 chambres - salon</p>
+                            <p>3 chambres - salon</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- Fin Section Apps meublés  -->
             <!-- Section Apps non meublés  -->
@@ -151,10 +168,9 @@
                         <video width="100%" height="100%" autoplay muted>
                             <source src="/videos/1.mp4" type="video/mp4">
                         </video>
-                        <h3 class="text-left"> <i class="fas fa-map-marker-alt"></i> librete 6 exten pres de l'école david diop</h3>
+                        <h3 class="text-left"> <i class="fas fa-map-marker-alt"></i> Mermoz </h3>
                         <div class="d-flex justify-content-between">
-                            <p>2 chambres - salon</p>
-                            <p>3 chambres - salon</p>
+                            <p>6 chambres - 7 sale de bain - 2 space voiture</p>
                         </div>
                     </div>
                 </div>
@@ -232,6 +248,7 @@
                     $image3 = "/images/terrain/3.jpeg";
                     getCarousel($image1, $image2, $image3);
                     ?>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe enim id vitae doloremque sunt deserunt.</p>
                 </div>
                 <div class="col-md-6 col-lg-6 vente-terr mt-5">
                     <?php
